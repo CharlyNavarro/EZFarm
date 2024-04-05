@@ -1,7 +1,209 @@
-h1{
+.fondo1{
+    background-color: white;
+}
+.titulo{
     color: red;
 }
-
-.title{
-    font-size: 100px;
+.divimagen1{
+    position: absolute;
+    left: 4.5%;
+    top: 8%;
+    animation: animacion1 7.5s ease forwards infinite;
 }
+.divimagen2{
+    position: absolute;
+    left: 480px;
+    top: 8%;
+    animation: animacion2 7.5s ease forwards infinite;
+}
+.logo{
+    width: 255px;
+    height: 255px;
+    border-radius: 20px;
+    border: solid black 5px;
+}
+.diveslogan{
+    background-color: black;
+    width: 260px;
+    height: 260px;
+    border-radius: 25px;
+    position: absolute;
+    left: 900px;
+    top: 8%;
+    animation: animacion3 7.5s ease forwards infinite;
+}
+.eslogan{
+color: red;
+}
+.letra1{
+    font-family: cursive;
+    color: whitesmoke;
+}
+.letratitulo{
+    font-family: sans-serif
+}
+.gestion{
+    background-color: #4CAF50;
+    width: 350px;
+    height: 70px;
+    border-radius: 20px;
+    position: absolute;
+    top: 61%;
+    left: 435px;
+}
+.letgestion{
+    color: whitesmoke;
+}
+.divdesc{
+    width: 800px;
+    height: 600px;
+    position: absolute;
+    top: 80%;
+    left: 12%;
+}
+.imggran{
+    width: 800px;
+    height: 375px;
+    position: absolute;
+    left: 18%;
+    top: 120%;
+    border-radius: 10px;
+}
+.letdes{
+    font-style: black;
+    font-size: 23px;
+    text-align: justify;
+    animation: animacion4 3s ease forwards;
+}
+.div1{
+    position: absolute;
+    left: 4.5%;
+    top: 250%;
+    height: 300;
+    width: 255px;
+    border: solid black 4px;
+    border-radius: 7px;
+    text-align: justify;
+}
+.div2{
+    position: absolute;
+    left: 480px;
+    top: 250%;
+    height: 300;
+    width: 255px;
+    border: solid black 4px;
+    border-radius: 7px;
+    text-align: justify;
+}
+.div3{
+    position: absolute;
+    left: 900px;
+    top: 250%;
+    height: 300;
+    width: 255px;
+    border: solid black 4px;
+    border-radius: 7px;
+    text-align: justify;
+}
+.d4{
+    position: absolute;
+    left: 4.5%;
+    top: 245%;
+    height: 300;
+    width: 255px;
+    border: solid black 4px;
+    border-radius: 3px;
+    text-align: justify;
+}
+.d5{
+    position: absolute;
+    left: 480px;
+    top: 245%;
+    height: 300;
+    width: 255px;
+    border: solid black 4px;
+    border-radius: 3px;
+    text-align: justify;
+}
+.d6{
+    position: absolute;
+    left: 900px;
+    top: 245%;
+    height: 300;
+    width: 255px;
+    border: solid black 4px;
+    border-radius: 3px;
+    text-align: justify;
+}
+.f1{
+    position: absolute;
+    left: 4.5%;
+    top: 195%;
+    width: 260px;
+    height: 260px;
+    border-radius: 25px;
+}
+.f2{
+    position: absolute;
+    left: 480px;
+    top: 195%;
+    width: 260px;
+    height: 260px;
+    border-radius: 25px;
+}
+.f3{
+    position: absolute;
+    left: 900px;
+    top: 195%;
+    width: 260px;
+    height: 260px;
+    border-radius: 25px;
+}
+
+  @keyframes animacion1 {
+    from {
+      opacity: 0;
+      transform: translateX(-100%);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+
+  @keyframes animacion2 {
+    from {
+      opacity: 0;
+      transform: translateX(-100%);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+
+  @keyframes animacion3 {
+    from {
+      opacity: 0;
+      transform: translateX(-100%);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  
+  @keyframes animacion4 {
+    from {
+        opacity: 0;
+      transform: translateX(-100%);
+    }
+    to {
+        opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
