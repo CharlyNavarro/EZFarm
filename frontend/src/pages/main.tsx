@@ -71,13 +71,13 @@ export default function Main() {
                 alt="f3"
                 ></Image>
 
-            <div className="d4">Maneja tus recursos</div>
-            <div className="d5">Mantente actualizado de tu negocio</div>
-            <div className="d6">Cumple tus resultados esperados</div>
+            <div className="d4"><p><b><h2>Maneja tus recursos</h2></b></p></div>
+            <div className="d5"><h2>Mantente actualizado de tu negocio</h2></div>
+            <div className="d6"><h2>Cumple tus resultados esperados</h2></div>
 
-            <div className="div1"><h3>Administra y lleva un registro sobre todos los recursos disponibles en tu empresa, sean humanos o materiales.</h3></div>
-            <div className="div2"><h3>Entérate de las actualizaciones de cada departamento de tu negocio, recibiedno anuncios constantes e importantes.</h3></div>
-            <div className="div3"><h3>Con todas las funciones o herramientas te pondremos a disposicion, direccionarás tu negocio al éxito.</h3></div>
+            <div className="div1"><p className="textoblanco">Administra y lleva un registro sobre todos los recursos disponibles en tu empresa, sean humanos o materiales.</p></div>
+            <div className="div2"><p className="textoblanco">Entérate de las actualizaciones de cada departamento de tu negocio, recibiedno anuncios constantes e importantes.</p></div>
+            <div className="div3"><p className="textoblanco">Con todas las funciones o herramientas te pondremos a disposicion, direccionarás tu negocio al éxito.</p></div>
 
         </body>
     )

@@ -1,6 +1,7 @@
-.fondo1{
-    background-color: white;
+body{
+  background-color: #ebffeb;
 }
+
 .titulo{
     color: red;
 }
@@ -12,7 +13,7 @@
 }
 .divimagen2{
     position: absolute;
-    left: 480px;
+    left: 42%;
     top: 8%;
     animation: animacion2 7.5s ease forwards infinite;
 }
@@ -28,7 +29,7 @@
     height: 260px;
     border-radius: 25px;
     position: absolute;
-    left: 900px;
+    left: 80%;
     top: 8%;
     animation: animacion3 7.5s ease forwards infinite;
 }
@@ -49,7 +50,7 @@ color: red;
     border-radius: 20px;
     position: absolute;
     top: 61%;
-    left: 435px;
+    left: 39%;
 }
 .letgestion{
     color: whitesmoke;
@@ -59,14 +60,14 @@ color: red;
     height: 600px;
     position: absolute;
     top: 80%;
-    left: 12%;
+    left: 22%;
 }
 .imggran{
     width: 800px;
     height: 375px;
     position: absolute;
-    left: 18%;
-    top: 120%;
+    left: 22%;
+    top: 105%;
     border-radius: 10px;
 }
 .letdes{
@@ -76,85 +77,93 @@ color: red;
     animation: animacion4 3s ease forwards;
 }
 .div1{
+    background-color: #333;
     position: absolute;
     left: 4.5%;
-    top: 250%;
+    top: 230%;
     height: 300;
     width: 255px;
-    border: solid black 4px;
+    border: solid #444646 4px;
     border-radius: 7px;
     text-align: justify;
+    animation: animacion4 3s ease forwards;
 }
 .div2{
+    background-color: #333;
     position: absolute;
-    left: 480px;
-    top: 250%;
+    left: 39%;
+    top: 230%;
     height: 300;
-    width: 255px;
-    border: solid black 4px;
+    width: 340px;
+    border: solid #444646 4px;
     border-radius: 7px;
     text-align: justify;
+    animation: animacion4 3s ease forwards;
 }
 .div3{
+    background-color: #333;
     position: absolute;
-    left: 900px;
-    top: 250%;
+    left: 80%;
+    top: 230%;
     height: 300;
     width: 255px;
-    border: solid black 4px;
+    border: solid #444646 4px;
     border-radius: 7px;
     text-align: justify;
+    animation: animacion4 3s ease forwards;
 }
+
+.textoblanco{
+  color: white;
+}
+
 .d4{
     position: absolute;
-    left: 4.5%;
-    top: 245%;
+    left: 6%;
+    top: 222%;
     height: 300;
     width: 255px;
-    border: solid black 4px;
-    border-radius: 3px;
     text-align: justify;
+    animation: animacion4 3s ease forwards;
 }
 .d5{
     position: absolute;
-    left: 480px;
-    top: 245%;
+    left: 38.5%;
+    top: 222%;
     height: 300;
-    width: 255px;
-    border: solid black 4px;
-    border-radius: 3px;
+    width: 380px;
     text-align: justify;
+    animation: animacion4 3s ease forwards;
 }
 .d6{
     position: absolute;
-    left: 900px;
-    top: 245%;
+    left: 77%;
+    top: 222%;
     height: 300;
-    width: 255px;
-    border: solid black 4px;
-    border-radius: 3px;
+    width: 380px;
     text-align: justify;
+    animation: animacion4 3s ease forwards;
 }
 .f1{
     position: absolute;
     left: 4.5%;
-    top: 195%;
+    top: 180%;
     width: 260px;
     height: 260px;
     border-radius: 25px;
 }
 .f2{
     position: absolute;
-    left: 480px;
-    top: 195%;
+    left: 42%;
+    top: 180%;
     width: 260px;
     height: 260px;
     border-radius: 25px;
 }
 .f3{
     position: absolute;
-    left: 900px;
-    top: 195%;
+    left: 80%;
+    top: 180%;
     width: 260px;
     height: 260px;
     border-radius: 25px;
